@@ -1,0 +1,106 @@
+.askInput,.askSelect{
+    width: 150px;
+}
+.startTime,.endTime{
+    width: 200px;
+}
+.time,.account{
+    width: 170px;
+}
+.seller{
+    width: 380px;
+}
+.tableInfo .seller{
+    text-align: left;
+}
+.money{
+    width: 120px;
+}
+.state{
+    width: 98px;
+}
+.operate{
+    width: 220px;
+}
+.stop,.start,.change{
+    width: 40px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 12px;
+}
+.addMoney,.minusMoney{
+    width: 55px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 12px;
+    color: #49a2fb;
+}
+.stop{
+    color: #ff0000;
+}
+.start{
+    color: #00CC00;
+}
+.change{
+    color: #49a2fb;
+}
+.stop:hover,.start:hover{
+    opacity: 0.8;
+}
+.change:hover,.addMoney:hover,.minusMoney:hover{
+    color: #2c94fd;
+}
+
+
+.stop_pop,.start_pop,.add_pop,.addMoney_pop,.minusMoney_pop,.change_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 70px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.star{
+    color: #ff0000;
+}
+.entry{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 280px;
+    height: 35px;
+}
+.tips{
+    display: inline-block;
+    margin-top: 2px;
+    font-size: 12px;
+    color: #ff0000;
+    text-align: left;
+}
+.popAccount{
+    float: right;
+    text-align: left;
+    width: 287px;
+    height: 35px;
+    line-height: 35px;
+    color: #999999;
+}
+.txt{
+    float: right;
+    vertical-align: top;
+    padding: 5px;
+    width: 275px;
+    resize: none;
+    height: 60px;
+    border: 1px solid #ececec;
+    overflow-x: hidden;
+}
+

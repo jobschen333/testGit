@@ -1,0 +1,77 @@
+.charityAdd{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 0 10px;
+    width: 1200px;
+    background-color: #ffffff;
+}
+.charityInfo{
+    padding: 15px 10px;
+}
+.name{
+    float: left;
+    vertical-align: top;
+    width: 165px;
+    font-size: 16px;
+    color: #333333;
+}
+.star{
+    color: #ff0000;
+}
+.nameInput{
+    padding-left: 5px;
+    width: 340px;
+    height: 35px;
+    border: 1px solid #ececec;
+    color: #999999;
+    font-size: 14px;
+}
+.txt{
+    padding-left: 5px;
+    width: 340px;
+    height: 125px;
+    border: 1px solid #ececec;
+    color: #999999;
+    font-size: 14px;
+    resize: none;
+    overflow-x: hidden;
+}
+.editor{
+    float: left;
+    width: 1000px;
+    height: 600px;
+    border: 1px solid #ececec;
+}
+.operate{
+    display: inline-block;
+    padding:15px 0 15px 175px;
+}
+.back{
+    display: inline-block;
+    width: 70px;
+    height: 35px;
+    line-height: 35px;
+    color: #ffffff;
+    font-size: 15px;
+    background-color: #cccccc;
+    text-align: center;
+}
+.submit{
+    margin-left: 15px;
+    width: 90px;
+    height: 35px;
+    line-height: 35px;
+    color: #ffffff;
+    font-size: 15px;
+    background-color: #ff9a3b;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+.back:hover{
+    opacity: 0.8;
+}
+.save:hover,.submit:hover{
+    background-color: #fd891d;
+}

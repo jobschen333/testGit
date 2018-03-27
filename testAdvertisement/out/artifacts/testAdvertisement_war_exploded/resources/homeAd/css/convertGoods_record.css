@@ -1,0 +1,75 @@
+.askInput,.askSelect{
+    width: 150px;
+}
+.notice{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #ff9a3b;
+}
+.time{
+    width: 130px;
+}
+.name{
+    width: 180px;
+}
+.account{
+    width: 140px;
+}
+.delivery{
+    width: 250px;
+}
+.express{
+    width: 180px;
+}
+.state{
+    width: 63px;
+}
+.tableInfo .name,.tableInfo .delivery,.tableInfo .express{
+    text-align: left;
+    word-break: break-all;
+}
+.operate{
+    width: 205px;
+}
+.fill,.grantCancel,.grantConfirm{
+    color: #49a2fb;
+    font-size: 12px;
+    border: none;
+    text-align: center;
+}
+.fill{
+    width: 80px;
+    background-color: transparent;
+}
+.grantConfirm,.grantCancel{
+    width: 55px;
+    background-color: transparent;
+}
+.fill:hover,.grantConfirm:hover,.grantCancel:hover{
+    color: #2c94fd;
+    cursor: pointer;
+}
+
+
+.fill_pop,.cancel_pop,.confirm_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 70px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.star{
+    color: #ff0000;
+}
+.entry{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 280px;
+    height: 35px;
+}

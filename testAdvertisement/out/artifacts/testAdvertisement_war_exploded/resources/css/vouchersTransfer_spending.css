@@ -1,0 +1,30 @@
+tr.tableInfo td, tr.tableTitle td{
+    padding:5px 20px;
+}
+.askInput{
+    width:139px;
+    margin:-2px;
+}
+.startTime,.endTime{
+    width: 134px;
+    margin:-2px;
+ }
+.time{
+    width: 130px;
+ }
+.account{
+    width: 180px;
+}
+.accountInfo{
+    width: 311px;
+}
+.info{
+    width: 150px;
+}
+.operation{
+    width: 247px;
+    word-break: break-all;
+}
+.tableInfo .accountInfo,.tableInfo .info{
+    text-align: left;
+}

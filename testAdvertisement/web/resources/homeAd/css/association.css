@@ -1,0 +1,137 @@
+.askInput,.askSelect{
+    width: 130px;
+}
+.startTime,.endTime{
+    width: 150px;
+}
+.time{
+    width: 120px;
+}
+.account{
+    width: 218px;
+}
+.application{
+    width: 250px;
+}
+.state{
+    width: 110px;
+}
+.generation{
+    width: 120px;
+}
+.mark{
+    width: 200px;
+}
+.operate{
+    width: 140px;
+}
+.tableInfo .application,.tableInfo .account,.tableInfo .state{
+    text-align: left;
+}
+.stop{
+    margin-bottom: 2px;
+    width: 40px;
+    text-align: center;
+    border: none;
+    color: #ff0000;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 12px;
+}
+.start{
+    margin-bottom: 2px;
+    width: 40px;
+    text-align: center;
+    border: none;
+    color: #00CC00;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 12px;
+}
+.stop:hover,.start:hover{
+    opacity: 0.8;
+}
+.delete,.change,.breeding{
+    width: 40px;
+    text-align: center;
+    border: none;
+    color: #49a2fb;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 12px;
+}
+.approved,.auditRefused{
+    width: 66px;
+    text-align: center;
+    border: none;
+    color: #49a2fb;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 12px;
+ }
+.delete:hover,.approved:hover,.auditRefused:hover,.change:hover{
+    color: #2c94fd;
+}
+
+
+.stop_pop,.start_pop,.delete_pop,.approved_pop,.auditRefused_pop,.change_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.star{
+    color: #ff0000;
+}
+.entry{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 270px;
+    height: 35px;
+}
+.popSelected{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 277px;
+    height: 35px;
+}
+.popSelectedArea{
+    margin-top:15px;
+}
+.popAccount{
+    float: right;
+    text-align: left;
+    width: 252px;
+    height: 35px;
+    line-height: 35px;
+    color: #999999;
+    overflow: hidden;
+}
+.txt{
+    float: right;
+    vertical-align: top;
+    padding: 5px;
+    width: 265px;
+    resize: none;
+    height: 60px;
+    border: 1px solid #ececec;
+    overflow-x: hidden;
+}
+.close{
+    position: absolute;
+    right: 20px;
+    font-size: 30px;
+    color: #999999;
+    cursor: pointer;
+}
+.close:hover{
+    opacity: 0.8;
+}

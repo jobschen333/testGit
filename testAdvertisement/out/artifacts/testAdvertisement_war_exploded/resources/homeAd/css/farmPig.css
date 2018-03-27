@@ -1,0 +1,154 @@
+.askSelect{
+    width: 130px;
+}
+.accName {
+    margin-top: 1px;
+    margin-bottom: 10px;
+    padding: 0 0 0 10px;
+    line-height: 55px;
+    background: #ffffff;
+    font-size: 0;
+}
+.accName p{
+    width: 500px;
+    height: 55px;
+    display: inline-block;
+    font-size: 14px;
+    color: #666666;
+}
+.accName p span{
+    color: #333333;
+}
+.askOperate{
+    float: right;
+    font-size: 0;
+}
+.approved,.auditRefused{
+    margin: 9px 10px;
+    width:90px;
+    height: 35px;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #333333;
+    text-align: center;
+    cursor: pointer;
+}
+.approved{
+    width: 90px;
+    background-color:#49a2fb;
+    margin-right:0;
+}
+.approved:hover{
+    background-color:  #2c94fd;
+}
+.auditRefused:hover{
+    background-color: #000000;
+}
+.information{
+    width:238px;
+}
+.time{
+    width: 120px;
+}
+.number{
+    width: 180px;
+}
+.classified{
+    width: 120px;
+}
+.series{
+    width: 120px;
+}
+.birth{
+    width: 163px;
+}
+.operate{
+    width:125px;
+}
+.check{
+    width: 120px;
+}
+.tableInfo .information{
+    text-align: left;
+}
+.details{
+    color: #49a2fb;
+    font-size: 12px;
+}
+.delete{
+    width: 40px;
+    text-align: right;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #49a2fb;
+    margin-left: 51px;
+    font-size: 12px;
+}
+.delete:hover{
+    color: #2c94fd;
+}
+.hide,.addInfor_pop,.addData_pop,.approved_pop,.auditRefused_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 92px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.star{
+    color: #ff0000;
+}
+input.entry{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 260px;
+    height: 35px;
+}
+.popSelected{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 267px;
+    height: 35px;
+}
+.popSelectedArea{
+    margin-top:15px;
+}
+.popAccount{
+    float: right;
+    text-align: left;
+    width: 252px;
+    height: 35px;
+    line-height: 35px;
+    color: #999999;
+    overflow: hidden;
+}
+.txt{
+    float: right;
+    vertical-align: top;
+    padding: 5px;
+    width: 255px;
+    resize: none;
+    height: 60px;
+    border: 1px solid #ececec;
+    font-size: 13px;
+    overflow-x: hidden;
+}
+.close{
+    position: absolute;
+    right: 20px;
+    font-size: 30px;
+    color: #999999;
+    cursor: pointer;
+    font-size: 13px;
+}
+.close:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,130 @@
+.askInput,.askSelect{
+    width: 130px;
+}
+.startTime,.endTime{
+    width: 150px;
+}
+tr.tableInfo td, tr.tableTitle td{
+    padding:5px 20px;
+}
+.time{
+    width: 210px;
+}
+.unlock{
+    width: 85px;
+}
+tr.tableInfo td.unlock, tr.tableTitle td.unlock{
+    padding:5px 40px;
+}
+.unlockTime{
+    width: 178px;
+}
+tr.tableInfo td.unlockTime, tr.tableTitle td.unlockTime{
+    padding:5px 40px;
+}
+.account{
+    width: 165px;
+}
+.state{
+    width: 120px;
+}
+.operate{
+    width: 140px;
+}
+.tableInfo .unlock,.tableInfo .account,.tableInfo .unlockTime{
+    text-align: left;
+}
+.top{
+    color: #999999;
+}
+.top:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.stop{
+    width: 30px;
+    text-align: center;
+    border: none;
+    color: #ff0000;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 12px;
+}
+.start{
+    width: 30px;
+    text-align: center;
+    border: none;
+    color: #00CC00;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 12px;
+}
+.stop:hover,.start:hover{
+    opacity: 0.8;
+}
+
+.stop_pop,.start_pop,.add_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.star{
+    color: #ff0000;
+}
+input.entry{
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 251px;
+    height: 35px;
+    margin-right:5px;
+}
+input.entryB{
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 269px;
+    height: 35px;
+}
+input.entryC{
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 240px;
+    height: 35px;
+    margin-right:3px;
+}
+.popCompany{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+.info{
+    float: left;
+    margin:0 20px;
+    padding: 10px 0;
+    width: 360px;
+    font-size: 14px;
+    color: #666666;
+    border-bottom: 1px solid #ececec;
+    cursor: pointer;
+}
+.info:last-child{
+    border: none;
+}
+.info:hover{
+    color: #999999;
+}
+p.popInput{
+    color: #666666;
+    font-size: 13px;
+}
+.laydate_hms{
+    display: none !important;
+}

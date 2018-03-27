@@ -1,0 +1,30 @@
+.askInput{
+    width: 140px;
+}
+.askSelect{
+    width:108px;
+ }
+.startTime,.endTime{
+    width: 145px;
+ }
+.time{
+    width: 160px;
+ }
+.account{
+    width: 211px;
+}
+.accountInfo{
+    width: 330px;
+}
+.info{
+    width: 150px;
+}
+.state{
+    width: 80px;
+}
+.operation{
+    width: 317px;
+}
+.tableInfo .account,.tableInfo .accountInfo,.tableInfo .info,.tableInfo .operation{
+    text-align: left;
+}

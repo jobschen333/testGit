@@ -1,0 +1,181 @@
+.askInput,.askSelect{
+    width: 130px;
+}
+.order{
+    background-color: #ffffff;
+    padding-bottom: 10px;
+}
+.orderInfo{
+    display: inline-block;
+    margin: 10px 10px 0 10px;
+    width: 1200px;
+    border: 1px solid #ececec;
+}
+.oTitle{
+    padding: 0 10px;
+    width: 1180px;
+    height: 40px;
+    line-height: 40px;
+    background-color:#f5f5f5;
+}
+.number{
+    color: #333333;
+    font-size: 15px;
+}
+.time{
+    float: right;
+    color: #999999;
+    font-size: 15px;
+}
+.goods{
+    display: inline-block;
+    padding: 10px 0 10px 10px;
+    width: 1190px;
+
+}
+.goodsInfo{
+    float: left;
+    margin-right: 23px;
+    padding: 10px;
+    width: 350px;
+    height: 70px;
+    border: 1px solid #ececec;
+    cursor: pointer;
+}
+.goodsInfo:hover{
+    border: 1px solid #ff9a3b;
+}
+.goodsImg{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+.info{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    width: 265px;
+    height: 70px;
+}
+.name{
+    width: 100%;
+    font-size: 14px;
+    color: #333333;
+}
+.state{
+    position: absolute;
+    bottom:0;
+    left:0;
+    font-size: 12px;
+    color: #666666;
+}
+.deliveryInfo{
+    display: inline-block;
+    padding: 0 10px 10px 10px;
+    width: 1180px;
+}
+.left{
+    float: left;
+    width: 980px;
+}
+.account{
+    float: left;
+    width: 100%;
+    font-size: 13px;
+    color:#666666;
+}
+.account span{
+    margin-right: 15px;
+}
+.address{
+    float: left;
+    margin-top: 5px;
+    width: 100%;
+    word-break: break-all;
+    color: #999999;
+    font-size: 12px;
+}
+.aName,.aTel{
+    margin-right: 10px;
+}
+.change{
+    width: 40px;
+    text-align: center;
+    font-size: 13px;
+    color: #49a2fb;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.change:hover{
+    color: #2c94fd;
+}
+.operate{
+    float: right;
+    width: 200px;
+    height: 38px;
+    line-height: 38px;
+    text-align: right;
+}
+.control{
+    font-size: 14px;
+    color: #333333;
+}
+.check{
+    margin-top: -2px;
+    margin-right: 5px;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+}
+.goodsChoose{
+    background-image: url("../images/goodsChoose.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    border: 1px solid #ff9a3b !important;
+}
+.delivery{
+    margin-left: 30px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    background-color: #49a2fb;
+    text-align: center;
+    cursor: pointer;
+}
+.delivery:hover{
+    background-color: #2c94fd;
+}
+
+.delivery_pop,.change_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 70px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.star{
+    color: #ff0000;
+}
+.entry{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 260px;
+    height: 35px;
+}
+.popSelected{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 267px;
+    height: 35px;
+}

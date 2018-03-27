@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/icon.ico" type="image/x-ico" />
+
+    <link rel="stylesheet" type="text/css" href="css/homeAd.css" />
+    <link rel="stylesheet" type="text/css" href="css/public.css" />
+    <link rel="stylesheet" type="text/css" href="css/simpleTips.css" />
+
+    <title>首页广告</title>
+</head>
+<body>
+<div id="header"></div>
+
+
+<div class="content">
+    <div id="menu"></div>
+
+    <div class="contentRight">
+        <div class="caption">
+            <span class="title">首页广告</span>
+            <p class="add">新增广告</p>
+        </div>
+
+        <table class="table" cellspacing="0" cellpadding="0">
+            <tr class="tableTitle">
+                <td class="location">位置</td>
+                <td class="time">添加时间</td>
+                <td class="adTitle">标题</td>
+                <td class="pic">封面图</td>
+                <td class="link">web链接</td>
+                <td class="link">wap链接</td>
+                <td class="operate">操作</td>
+            </tr>
+            <tr class="tableInfo">
+                <td class="location">1</td>
+                <td class="time">2016-06-06&nbsp;06:06:06</td>
+                <td class="adTitle">标题标题标题标题</td>
+                <td class="pic"><img src="images/test/test1.jpg" /></td>
+                <td class="link"><a href="#">www.xxxxx.com</a></td>
+                <td class="link"><a href="#">www.xxxxx.com</a></td>
+                <td class="operate">
+                    <input type="text" value="下&nbsp;移" class="adDown" onfocus="this.blur()" />
+                    <input type="text" value="修&nbsp;改" class="change" onfocus="this.blur()" />
+                    <input type="text" value="删&nbsp;除" class="delete" onfocus="this.blur()" />
+                </td>
+            </tr>
+            <tr class="tableInfo">
+                <td class="location">2</td>
+                <td class="time">2016-06-06&nbsp;06:06:06</td>
+                <td class="adTitle">标题标题标题标题</td>
+                <td class="pic"><img src="images/test/test2.jpg" /></td>
+                <td class="link"><a href="#">www.xxxxx.com</a></td>
+                <td class="link"><a href="#">www.xxxxx.com</a></td>
+                <td class="operate">
+                    <input type="text" value="上&nbsp;移" class="adUp" onfocus="this.blur()" />
+                    <input type="text" value="下&nbsp;移" class="adDown" onfocus="this.blur()" />
+                    <input type="text" value="修&nbsp;改" class="change" onfocus="this.blur()" />
+                    <input type="text" value="删&nbsp;除" class="delete" onfocus="this.blur()" />
+                </td>
+            </tr>
+            <tr class="tableInfo">
+                <td class="location">3</td>
+                <td class="time">2016-06-06&nbsp;06:06:06</td>
+                <td class="adTitle">标题标题标题标题</td>
+                <td class="pic"><img src="images/test/test2.jpg" /></td>
+                <td class="link"><a href="#">www.xxxxx.com</a></td>
+                <td class="link"><a href="#">www.xxxxx.com</a></td>
+                <td class="operate">
+                    <input type="text" value="上&nbsp;移" class="adUp" onfocus="this.blur()" />
+                    <input type="text" value="修&nbsp;改" class="change" onfocus="this.blur()" />
+                    <input type="text" value="删&nbsp;除" class="delete" onfocus="this.blur()" />
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+<div id="footer"></div>
+
+
+<div class="mask">
+    <div class="mask_content">
+        <div class="delete_pop">
+            <p class="popTitle">删除操作</p>
+            <p class="popTips"><img src="images/tips.png" class="tipsImg" />确定删除？</p>
+
+            <div class="buttons">
+                <input type="text" value="取&nbsp;消" class="cancel" onfocus="this.blur()" />
+                <input type="text" value="确&nbsp;定" class="yes" onfocus="this.blur()" onclick="openTip()" />
+            </div>
+        </div>
+
+        <div class="add_pop">
+            <p class="popTitle">新增广告</p>
+            <p class="popInput">
+                <label class="popName">广告图片<span class="star">*</span></label>
+
+                <span class="popPic">
+                    <input type="text" id="changead_t1"  class="choosePic" placeholder="请选择文件" onfocus="this.blur()" />
+                    <input type="text"  onclick="document.getElementById('changead_a1').click();"  value="选择文件" class="choose_button" onfocus="this.blur();" />
+                    <input type="file" class="file" id="changead_a1" onchange="document.getElementById('changead_t1').value = this.value;" />
+                </span>
+            </p>
+            <p class="popInput">
+                <label class="popName">标题名称<span class="star">*</span></label>
+                <input type="text" class="entry" placeholder="广告标题名称，2~16个字符" />
+            </p>
+            <p class="popInput">
+                <label class="popName">web链接地址<span class="star">*</span></label>
+                <input type="text" class="entry" placeholder="链接地址，非必填" />
+            </p>
+            <p class="popInput">
+                <label class="popName">wap链接地址<span class="star">*</span></label>
+                <input type="text" class="entry" placeholder="链接地址，非必填" />
+            </p>
+
+            <div class="buttons">
+                <input type="text" value="取&nbsp;消" class="cancel" onfocus="this.blur()" />
+                <input type="text" value="确&nbsp;定" class="yes" onfocus="this.blur()" onclick="openTip()" />
+            </div>
+        </div>
+
+        <div class="change_pop">
+            <p class="popTitle">修改广告</p>
+            <p class="popInput">
+                <label class="popName">广告图片</label>
+
+                <span class="popPic">
+                    <input type="text" id="changead_t2"  class="choosePic" placeholder="该项不修改时，请勿上传" onfocus="this.blur()" />
+                    <input type="text"  onclick="document.getElementById('changead_a2').click();"  value="选择文件" class="choose_button" onfocus="this.blur();" />
+                    <input type="file" class="file" id="changead_a2" onchange="document.getElementById('changead_t2').value = this.value;" />
+                </span>
+            </p>
+            <p class="popInput">
+                <label class="popName">标题名称<span class="star">*</span></label>
+                <input type="text" class="entry" placeholder="广告标题名称，2~16个字符" />
+            </p>
+            <p class="popInput">
+                <label class="popName">web链接地址<span class="star">*</span></label>
+                <input type="text" class="entry" placeholder="链接地址，非必填" />
+            </p>
+            <p class="popInput">
+                <label class="popName">wap链接地址<span class="star">*</span></label>
+                <input type="text" class="entry" placeholder="链接地址，非必填" />
+            </p>
+
+            <div class="buttons">
+                <input type="text" value="取&nbsp;消" class="cancel" onfocus="this.blur()" />
+                <input type="text" value="确&nbsp;定" class="yes" onfocus="this.blur()" onclick="openTip()" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/public.js"></script>
+<script type="text/javascript" src="js/simpleTips.js"></script>
+
+<script type="text/javascript">
+    var popObj;
+    $(function(){
+        $(".delete").click(function(){
+            $(".mask").fadeIn();
+            $(".delete_pop").fadeIn();
+            popObj = ".delete_pop"
+        });
+        $(".add").click(function(){
+            $(".mask").fadeIn();
+            $(".add_pop").fadeIn();
+            popObj = ".add_pop"
+        });
+        $(".change").click(function(){
+            $(".mask").fadeIn();
+            $(".change_pop").fadeIn();
+            popObj = ".change_pop"
+        });
+        $(".cancel").click(function(){
+            $(".mask").fadeOut("fast");
+            $(popObj).fadeOut("fast");
+        });
+        $(".yes").click(function(){
+            $(".mask").fadeOut("fast");
+            $(popObj).fadeOut("fast");
+        });
+    });
+
+    function openTip()
+    {
+        openTips("阿萨德芳");
+    }
+</script>
+
+</body>
+</html>

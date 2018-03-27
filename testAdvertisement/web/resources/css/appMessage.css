@@ -1,0 +1,58 @@
+.askInput,.askSelect{
+    width: 130px;
+}
+.time{
+    width: 200px;
+}
+.type{
+    width: 120px;
+}
+.mTitle{
+    width: 260px;
+}
+.message{
+    width: 478px;
+}
+.state{
+   width: 120px;
+}
+
+.add_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.star{
+    color: #ff0000;
+}
+.entry{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 270px;
+    height: 35px;
+}
+.popSelected{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 280px;
+    height: 35px;
+}
+.txt{
+    float: right;
+    vertical-align: top;
+    padding: 5px;
+    width: 265px;
+    resize: none;
+    height: 60px;
+    border: 1px solid #ececec;
+    overflow-x: hidden;
+}

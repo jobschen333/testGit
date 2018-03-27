@@ -1,0 +1,43 @@
+.askInput,.askSelect{
+    width: 120px;
+}
+.askOperate{
+    float: right;
+}
+.grantCancel,.grantAll,.grantConfirm{
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #49a2fb;
+    text-align: center;
+    cursor: pointer;
+}
+.grantCancel:hover,.grantAll:hover,.grantConfirm:hover{
+    background-color: #2c94fd;
+}
+
+.time,.account{
+    width: 150px;
+}
+.info{
+    width: 160px;
+}
+.state{
+    width: 90px;
+}
+.check,.choose_two,.controlAll{
+    display: inline-block;
+    width: 108px;
+}
+.controlAll{
+    height: 30px;
+    line-height: 30px;
+}
+
+.grantAll_pop,.cancel_pop,.confirm_pop{
+    display: none;
+}

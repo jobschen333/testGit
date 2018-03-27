@@ -1,0 +1,110 @@
+.askInput,.askSelect{
+    width: 130px;
+}
+.time{
+    width: 120px;
+}
+.pic{
+    width: 51px;
+}
+.name{
+    width: 173px;
+}
+.type{
+    width: 121px;
+}
+.price{
+    width: 70px;
+}
+.stock{
+    width: 127px;
+}
+.tableInfo .stock{
+    text-align: left;
+}
+.state{
+    width: 57px;
+}
+.seller{
+    width: 124px;
+}
+.operate{
+    width: 285px;
+}
+.pic img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.stop{
+    margin-right: 3px;
+    width: 40px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #ff0000;
+}
+.start{
+    margin-right: 3px;
+    width: 40px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #00CC00;
+}
+.delete,.change{
+    margin-right: 3px;
+    width: 40px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #49a2fb;
+}
+.addStock,.minusStock{
+    margin-right: 3px;
+    width: 65px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #49a2fb;
+}
+.stop:hover,.start:hover{
+    opacity: 0.8;
+}
+.delete:hover,.change:hover,.addStock:hover,.minusStock:hover,.import:hover{
+    color: #2c94fd;
+}
+
+.delete_pop,.change_pop,.addStock_pop,.minusStock_pop,.stop_pop,.start_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 70px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.star{
+    color: #ff0000;
+}
+.entry{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 280px;
+    height: 35px;
+}
+.popSelected{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 285px;
+    height: 35px;
+}

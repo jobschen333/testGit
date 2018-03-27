@@ -1,0 +1,18 @@
+.askSelect,.askInput{
+    width: 150px;
+}
+.order{
+    width: 182px;
+}
+.account{
+    width: 197px;
+}
+.money{
+    width: 100px;
+}
+.time{
+    width: 188px;
+}
+.type,.state{
+    width: 91px;
+}

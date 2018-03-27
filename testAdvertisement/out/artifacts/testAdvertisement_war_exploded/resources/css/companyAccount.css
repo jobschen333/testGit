@@ -1,0 +1,210 @@
+.askInput,.askSelect{
+    width: 130px;
+}
+.startTime,.endTime{
+    width: 150px;
+}
+.time{
+    width: 220px;
+}
+.company{
+    width: 370px;
+}
+.account{
+    width: 211px;
+}
+.state{
+    width: 117px;
+}
+.operate{
+    width: 250px;
+}
+.tableInfo .company,.tableInfo .account,.tableInfo .operate{
+    text-align: left;
+}
+.top{
+    color: #999999;
+}
+.top:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.stop{
+    margin-bottom: 2px;
+    width: 55px;
+    text-align: center;
+    border: none;
+    color: #ff0000;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 14px;
+}
+.start{
+    margin-bottom: 2px;
+    width: 55px;
+    text-align: center;
+    border: none;
+    color: #00CC00;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 14px;
+}
+.start,.stop{
+    text-align: left;
+}
+.stop:hover,.start:hover{
+    opacity: 0.8;
+}
+.detail{
+    margin-left: 55px;
+    margin-bottom: 2px;
+    color: #49a2fb;
+    font-size: 14px;
+}
+.lowLevel{
+    float: right;
+    margin-bottom: 2px;
+    width: 60px;
+    text-align: center;
+    border: none;
+    color: #49a2fb;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 14px;
+}
+.addBonus{
+    margin-bottom: 2px;
+    width: 60px;
+    text-align: center;
+    border: none;
+    color: #49a2fb;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 14px;
+}
+.addVoucher,.minusVoucher{
+    margin-bottom: 2px;
+    width: 93px;
+    border: none;
+    color: #49a2fb;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 14px;
+}
+.addScore,.minusScore{
+    margin-bottom: 2px;
+    width: 120px;
+    border: none;
+    color: #49a2fb;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 14px;
+}
+.addVoucher,.addScore{
+    text-align: left;
+}
+.minusVoucher,.minusScore{
+    float: right;
+    text-align: right;
+}
+.addVoucher:hover,.addScore:hover,.minusScore:hover,.minusVoucher:hover{
+    color: #2c94fd;
+}
+
+
+.stop_pop,.start_pop,.addVoucher_pop,.add_pop,.addBonus_pop,.minusVoucher_pop,.changeIdentity_pop,.changeBuy_pop,.addScore_pop,.minusScore_pop,.lowLevel_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 105px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.star{
+    color: #ff0000;
+}
+.entry{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 245px;
+    height: 35px;
+}
+.popSelected{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 255px;
+    height: 35px;
+}
+.popAccount{
+    float: right;
+    text-align: left;
+    width: 252px;
+    height: 35px;
+    line-height: 35px;
+    color: #999999;
+    overflow: hidden;
+}
+.txt{
+    float: right;
+    vertical-align: top;
+    padding: 5px;
+    width: 240px;
+    resize: none;
+    height: 60px;
+    border: 1px solid #ececec;
+    overflow-x: hidden;
+}
+.close{
+    position: absolute;
+    right: 20px;
+    font-size: 30px;
+    color: #999999;
+    cursor: pointer;
+}
+.close:hover{
+    opacity: 0.8;
+}
+.popCompany{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+.info{
+    float: left;
+    margin:0 20px;
+    padding: 10px 0;
+    width: 360px;
+    font-size: 14px;
+    color: #666666;
+    border-bottom: 1px solid #ececec;
+    cursor: pointer;
+}
+.info:last-child{
+    border: none;
+}
+.info:hover{
+    color: #999999;
+}
+.determine{
+    display: inline-block;
+    width: 65px;
+    height: 32px;
+    background-color: #49a2fb;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    cursor: pointer;
+    line-height: 32px;
+    float: right;
+}
+.determine:hover{
+    background-color: #2c94fd;
+}

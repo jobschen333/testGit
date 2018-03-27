@@ -1,0 +1,112 @@
+.content{
+    margin-top: 10px !important;
+    margin-bottom: 50px !important;
+    padding-bottom: 10px;
+    border: 1px solid #ececec;
+    background-color: #ffffff !important;
+}
+.caption{
+    width: 1400px !important;
+    border-bottom: 1px solid #ececec;
+}
+.confirm{
+    float: right;
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #49a2fb;
+    text-align: center;
+    cursor: pointer;
+}
+.confirm:hover{
+    background-color: #2c94fd;
+}
+.table{
+    margin:0 10px;
+    width: 1380px !important;
+}
+.time{
+    width: 182px;
+}
+.pic{
+    width: 100px;
+}
+.pic img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+.name{
+    width: 300px;
+}
+.store{
+    width: 200px;
+}
+.tableInfo .store{
+    text-align: left;
+}
+.price{
+    width: 110px;
+}
+.stock{
+    width: 110px;
+}
+.check,.choose_two,.controlAll{
+    display: inline-block;
+    width: 66px;
+}
+.controlAll{
+    height: 30px;
+    line-height: 30px;
+}
+.changePage{
+    width: 1380px !important;
+}
+
+.confirm_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 70px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.star{
+    color: #ff0000;
+}
+.entry{
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 250px;
+    height: 35px;
+}
+.entryInput{
+    float: right;
+    text-align: left;
+    font-size: 14px;
+    color: #666666;
+}
+.popSelected{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 285px;
+    height: 35px;
+}
+.notice{
+    display: inline-block;
+    margin-top: 5px;
+    padding: 0 20px;
+    width: 360px;
+    text-align: left;
+    color: #ff9a3b;
+    font-size: 12px;
+}

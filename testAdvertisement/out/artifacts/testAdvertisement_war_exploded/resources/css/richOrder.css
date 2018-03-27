@@ -1,0 +1,150 @@
+.askInput,.askSelect{
+    width: 150px;
+}
+.askOperate{
+    float: right;
+}
+.grantCancel,.grantConfirm,.batch{
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #49a2fb;
+    text-align: center;
+    cursor: pointer;
+}
+.grantCancel:hover,.grantConfirm:hover,.batch:hover{
+    background-color: #2c94fd;
+}
+
+.notice{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #ff9a3b;
+}
+.order{
+    width: 120px;
+}
+.name{
+    width: 140px;
+}
+.type{
+    width: 70px;
+}
+.account{
+    width: 180px;
+}
+.delivery{
+    width: 250px;
+}
+.state{
+    width: 70px;
+}
+.express{
+    width: 160px;
+}
+.tableInfo .name,.tableInfo .account,.tableInfo .delivery,.tableInfo .express{
+    text-align: left;
+    word-break: break-all;
+}
+.operate{
+    width: 90px;
+}
+.fill,.change{
+    color: #49a2fb;
+    font-size: 12px;
+    border: none;
+    text-align: center;
+    width: 80px;
+    background-color: transparent;
+}
+.change{
+    margin-bottom: 5px;
+}
+.fill:hover,.change:hover{
+    color: #2c94fd;
+    cursor: pointer;
+}
+.check,.choose_two,.controlAll{
+    display: inline-block;
+    width: 48px;
+}
+.controlAll{
+    height: 30px;
+    line-height: 30px;
+}
+
+
+.fill_pop,.cancel_pop,.confirm_pop,.batch_pop,.bConfirm_pop,.change_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 70px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.star{
+    color: #ff0000;
+}
+.entry{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 280px;
+    height: 35px;
+}
+.popTime{
+    float: right;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 280px;
+    height: 35px;
+}
+.popSelected{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 285px;
+    height: 35px;
+}
+.confirm{
+    width: 65px;
+    height: 30px;
+    border: 1px solid #49a2fb;
+    background-color: #49a2fb;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.confirm:hover{
+    background-color: #2c94fd;
+}
+.back{
+    margin-right: 20px;
+    width: 65px;
+    height: 30px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+    cursor: pointer;
+}
+.back:hover{
+    opacity: 0.8;
+}
+.confirmTips{
+    vertical-align: top;
+    display: inline-block;
+    width: 300px;
+    word-break: break-all;
+}

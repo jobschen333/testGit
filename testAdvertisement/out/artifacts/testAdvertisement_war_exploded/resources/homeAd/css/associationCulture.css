@@ -1,0 +1,144 @@
+.askInput,.askSelect{
+    width: 130px;
+}
+.startTime,.endTime{
+    width: 150px;
+}
+.askOperate{
+    float: right;
+}
+.approved,.auditRefused{
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #49a2fb;
+    text-align: center;
+    cursor: pointer;
+}
+.approved:hover,.auditRefused:hover{
+    background-color: #2c94fd;
+}
+.time{
+    width: 140px;
+}
+.account{
+    width: 240px;
+}
+.application{
+    width: 200px;
+}
+.affiliated{
+    width: 150px;
+}
+.state{
+    width: 110px;
+}
+.mark{
+    width: 208px;
+}
+.operate{
+    width: 200px;
+}
+.check{
+    width:50px;
+}
+.tableInfo .application,.tableInfo .account,.tableInfo .operate{
+    text-align: left;
+}
+.delete,.change,.details{
+    width: 40px;
+    text-align: center;
+    border: none;
+    color: #49a2fb;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 12px;
+}
+.details{
+    width: 60px;
+    display: inline-block;
+}
+.delete:hover{
+    color: #2c94fd;
+}
+.view{
+    width: 60px;
+    text-align: center;
+    border: none;
+    color: #49a2fb;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top:5px;
+}
+.tableInfo .operate{
+    font-size: 0;
+}
+.stop_pop,.start_pop,.delete_pop,.approved_pop,.auditRefused_pop,.change_pop,.view_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 95px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.auditRefused_pop .popName,.approved_pop .popName{
+    width:60px;
+}
+.star{
+    color: #ff0000;
+}
+.entry{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 255px;
+    height: 35px;
+}
+.popSelected{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 282px;
+    height: 35px;
+}
+.popSelectedArea{
+    margin-top:15px;
+}
+.popAccount{
+    float: right;
+    text-align: left;
+    width: 252px;
+    height: 35px;
+    line-height: 35px;
+    color: #999999;
+    overflow: hidden;
+}
+.txt{
+    float: right;
+    vertical-align: top;
+    padding: 5px;
+    width: 275px;
+    resize: none;
+    height: 60px;
+    border: 1px solid #ececec;
+    overflow-x: hidden;
+}
+.close{
+    position: absolute;
+    right: 20px;
+    font-size: 30px;
+    color: #999999;
+    cursor: pointer;
+}
+.close:hover{
+    opacity: 0.8;
+}

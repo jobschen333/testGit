@@ -1,0 +1,206 @@
+.return{
+    float: right;
+    font-size: 16px;
+    color: #666666;
+    margin: 12px 10px;
+}
+.return:hover{
+    color: #999999;
+}
+.contentRight .askAreaC {
+    margin-top: 1px;
+    margin-bottom: 10px;
+    padding: 0 0 0 10px;
+    line-height: 55px;
+    background: #ffffff;
+    font-size: 0;
+}
+.contentRight .askArea{
+    margin-top: 1px;
+    margin-bottom: 10px;
+    padding: 0 0 0 10px;
+    background: #ffffff;
+}
+.contentRight .askAreaB{
+    padding:10px 0 10px 10px;
+    font-size: 0;
+    overflow: hidden;
+}
+.contentRight .askAreaT{
+    padding: 10px 10px 20px 0;
+}
+.accountDetails {
+    width: 500px;
+    height: 55px;
+    display: inline-block;
+    font-size: 14px;
+    color: #333333;
+}
+
+.accountName {
+    display: inline-block;
+    width: 80px;
+    color: #666666;
+}
+.accDetails{
+    width: 500px;
+    font-size: 14px;
+    line-height:35px;
+    height:35px;
+    display: inline-block;
+    float: left;
+}
+
+.accName{
+    display: inline-block;
+    width: 80px;
+    color: #666666;
+}
+.askSelect {
+    width: 130px;
+}
+
+.askOperate {
+    float: right;
+    font-size: 0;
+}
+
+.approved, .auditRefused {
+    margin: 5px 10px;
+    width: 100px;
+    height: 35px;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #333333;
+    text-align: center;
+    cursor: pointer;
+}
+
+.approved {
+    width: 90px;
+    background-color: #49a2fb;
+    margin-right: 0;
+}
+
+.approved:hover {
+    background-color: #2c94fd;
+}
+
+.auditRefused:hover {
+    background-color: #000000;
+}
+table.table{
+    margin-top:-10px;
+}
+.time {
+    width: 300px;
+}
+
+.classified {
+    width: 300px;
+}
+
+.series {
+    width: 300px;;
+}
+
+.operate {
+    width: 278px;
+}
+
+.tableInfo .information {
+    text-align: left;
+}
+
+.details {
+    margin-left: 2px;
+    color: #49a2fb;
+    font-size: 12px;
+}
+
+.delete,.change {
+    width: 80px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #49a2fb;
+    font-size: 12px;
+}
+
+.delete:hover {
+    color: #2c94fd;
+}
+
+.hide, .delete_pop, .addData_pop, .approved_pop, .change_pop {
+    display: none;
+}
+
+.popName {
+    display: inline-block;
+    width: 92px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+
+.star {
+    color: #ff0000;
+}
+
+input.entry {
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 260px;
+    height: 35px;
+}
+
+.popSelected {
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 267px;
+    height: 35px;
+}
+
+.popSelectedArea {
+    margin-top: 15px;
+}
+
+.popAccount {
+    float: right;
+    text-align: left;
+    width: 252px;
+    height: 35px;
+    line-height: 35px;
+    color: #999999;
+    overflow: hidden;
+}
+
+.txt {
+    float: right;
+    vertical-align: top;
+    padding: 5px;
+    width: 255px;
+    resize: none;
+    height: 60px;
+    border: 1px solid #ececec;
+    font-size: 13px;
+    overflow-x: hidden;
+}
+
+.close {
+    position: absolute;
+    right: 20px;
+    font-size: 30px;
+    color: #999999;
+    cursor: pointer;
+}
+
+.close:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,57 @@
+.askInput,.askSelect{
+    width: 150px;
+}
+.startTime,.endTime{
+    width: 200px;
+}
+.askOperate{
+    float: right;
+}
+.grantCancel,.grantAll,.grantConfirm{
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #49a2fb;
+    text-align: center;
+    cursor: pointer;
+}
+.grantCancel:hover,.grantAll:hover,.grantConfirm:hover{
+    background-color: #2c94fd;
+}
+.time{
+    width: 160px;
+}
+.projectInfo{
+    width: 280px;
+}
+.tableInfo .projectInfo{
+    text-align: left;
+}
+.account{
+    width: 185px;
+}
+.name{
+    width: 120px;
+}
+.money{
+    width: 118px;
+}
+.state{
+    width: 85px;
+}
+.check,.choose_two,.controlAll{
+    display: inline-block;
+    width: 72px;
+}
+.controlAll{
+    height: 30px;
+    line-height: 30px;
+}
+
+.grantAll_pop,.cancel_pop,.confirm_pop{
+    display: none;
+}

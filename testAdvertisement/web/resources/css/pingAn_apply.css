@@ -1,0 +1,61 @@
+.askInput,.startTime,.endTime,.askSelect{
+    width: 130px;
+}
+.time{
+    width: 160px;
+}
+.number{
+    width: 140px;
+}
+.money{
+    width: 150px;
+}
+.account{
+    width: 180px;
+}
+.state{
+    width: 56px;
+}
+.mark{
+    width: 282px;
+}
+.operate{
+    width: 123px;
+}
+.examine,.details{
+    margin-right: 5px;
+    width: 40px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 12px;
+    color: #49a2fb;
+}
+.examine:hover,.details:hover{
+    color: #2c94fd;
+}
+
+
+.examine_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 60px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.txt{
+    float: right;
+    vertical-align: top;
+    padding: 5px;
+    width: 285px;
+    resize: none;
+    height: 60px;
+    border: 1px solid #ececec;
+    overflow-x: hidden;
+}

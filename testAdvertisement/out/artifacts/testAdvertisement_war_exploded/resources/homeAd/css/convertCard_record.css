@@ -1,0 +1,90 @@
+.askInput,.askSelect{
+    width: 150px;
+}
+.askOperate{
+    float: right;
+}
+.grantCancel,.grantConfirm{
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #49a2fb;
+    text-align: center;
+    cursor: pointer;
+}
+.grantCancel:hover,.grantConfirm:hover{
+    background-color: #2c94fd;
+}
+.notice{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #ff9a3b;
+}
+.time{
+    width: 132px;
+}
+.name{
+    width: 180px;
+}
+.price{
+    width: 73px;
+}
+.account{
+    width: 130px;
+}
+.card{
+    width: 146px;
+    word-break: break-all;
+}
+.state{
+    width: 67px;
+}
+.operate{
+    width: 48px;
+}
+.change{
+    width: 40px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #49a2fb;
+}
+.change:hover{
+    color: #2c94fd;
+}
+.check,.choose_two,.controlAll{
+    display: inline-block;
+    width: 56px;
+}
+.controlAll{
+    height: 30px;
+    line-height: 30px;
+}
+
+.cancel_pop,.confirm_pop,.change_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 110px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.star{
+    color: #ff0000;
+}
+.entry{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 240px;
+    height: 35px;
+}

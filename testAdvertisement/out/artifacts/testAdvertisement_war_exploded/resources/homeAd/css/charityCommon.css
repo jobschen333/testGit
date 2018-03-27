@@ -1,0 +1,89 @@
+.main{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 0 20px;
+    width: 1180px;
+    background-color: #ffffff;
+}
+.pay{
+    display: table;
+    width: 100%;
+    height: 100px;
+}
+.payInfo{
+    display: table-cell;
+    height: 80px;
+    vertical-align: middle;
+    text-align: left;
+}
+.payTitle{
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 16px;
+    color: #666666;
+}
+.payMoney{
+    font-size: 14px;
+    color: #999999;
+}
+.payMoney span{
+    margin-right: 3px;
+    color: #ff9a3b;
+    font-size: 20px;
+}
+.money{
+    font-size: 14px;
+    color: #999999;
+}
+.money span{
+    margin-right: 3px;
+    color: #333333;
+    font-size: 20px;
+}
+.flowList{
+    position: relative;
+    padding-left: 15px;
+    width: 1165px;
+    border-left: 1px solid rgba(73,162,251,0.25);
+}
+.flowList:last-of-type{
+    border: none;
+}
+.circle{
+    position: absolute;
+    top:0;
+    left: -8px;
+    display: table;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #d1e8fe;
+}
+.circle span{
+    float: left;
+    margin:4px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgba(111,181,252,0.75);
+}
+.brief{
+    color: #666666;
+    font-size: 14px;
+}
+.editor{
+    margin: 10px 0;
+    width: 100%;
+}
+.editor img{
+    max-width: 100%;
+}
+.time{
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    font-size: 12px;
+    color: #999999;
+}

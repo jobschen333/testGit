@@ -1,0 +1,79 @@
+.askInput,.askSelect,.startTime,.endTime{
+    width: 160px;
+}
+.askOperate{
+    float: right;
+    color: #333333;
+    font-size: 14px;
+}
+.refuse,.pass{
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #49a2fb;
+    text-align: center;
+    cursor: pointer;
+}
+.refuse:hover,.pass:hover{
+    background-color: #2c94fd;
+}
+.order{
+    width: 140px;
+}
+.orderInfo{
+    width: 230px;
+}
+.applyInfo{
+    width: 130px;
+}
+.state{
+    width: 60px;
+}
+.delivery{
+    width: 180px;
+}
+.farmInfor{
+    width: 198px;
+}
+.mark{
+    width: 150px;
+}
+.tableInfo .orderInfo,.tableInfo .applyInfo,.tableInfo .delivery,.tableInfo .mark,.tableInfo .farmInfor{
+    text-align: left;
+}
+.check,.choose_two,.controlAll{
+    display: inline-block;
+    width: 50px;
+}
+.controlAll{
+    height: 30px;
+    line-height: 30px;
+}
+
+
+.pass_pop,.refuse_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 50px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.txt{
+    float: right;
+    vertical-align: top;
+    padding: 5px;
+    width: 295px;
+    resize: none;
+    height: 60px;
+    border: 1px solid #ececec;
+    overflow-x: hidden;
+}

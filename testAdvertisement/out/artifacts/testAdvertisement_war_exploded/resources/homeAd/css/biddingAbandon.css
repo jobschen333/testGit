@@ -1,0 +1,73 @@
+.askInput,.askSelect{
+    width: 130px;
+}
+.startTime,.endTime{
+    width: 180px;
+}
+.delivery{
+    float: right;
+    margin-top: 10px;
+    width: 50px;
+    height:30px;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #49a2fb;
+    text-align: center;
+    cursor: pointer;
+}
+.delivery:hover{
+    background-color: #2c94fd;
+}
+.time{
+    width: 200px;
+}
+.pic{
+    width: 137px;
+}
+.pic img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.name{
+    width: 400px;
+}
+.state{
+    width: 107px;
+}
+.account{
+    width: 224px;
+}
+.check,.choose_two,.controlAll{
+    display: inline-block;
+    width: 90px;
+}
+.controlAll{
+    height: 30px;
+    line-height: 30px;
+}
+
+
+.delivery_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 70px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.star{
+    color: #ff0000;
+}
+.entry{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 280px;
+    height: 35px;
+}

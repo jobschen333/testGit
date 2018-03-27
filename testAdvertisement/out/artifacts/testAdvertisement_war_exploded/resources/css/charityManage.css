@@ -1,0 +1,72 @@
+.askInput,.askSelect{
+    width: 150px;
+}
+.startTime,.endTime{
+    width: 200px;
+}
+.time{
+    width: 126px;
+}
+.pic{
+    width: 50px;
+}
+.pic img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.tableInfo .projectInfo,.tableInfo .raiseTime,.tableInfo .money,.tableInfo .pay,.tableInfo .state{
+    text-align: left;
+}
+.projectInfo{
+    width: 170px;
+}
+.introduction{
+    width: 130px;
+}
+.raiseTime{
+    width: 160px;
+}
+.money{
+    width: 190px;
+}
+.pay{
+    width: 140px;
+}
+.state{
+    width: 113px;
+}
+.operate{
+    width: 185px;
+}
+.delete,.off{
+    width: 38px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #ff0000;
+    font-size: 12px;
+}
+.delete:hover{
+    opacity: 0.8;
+}
+.change{
+    display: inline-block;
+    width: 75px;
+}
+.charity,.raise{
+    display: inline-block;
+    margin-left: 5px;
+    width: 50px;
+}
+.change,.details,.raise,.charity{
+    color: #49a2fb;
+}
+.change:hover,.details:hover,.raise:hover,.charity:hover{
+    color: #2c94fd;
+}
+
+.delete_pop,.off_pop{
+    display: none;
+}

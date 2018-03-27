@@ -1,0 +1,118 @@
+.content{
+    margin-top: 10px !important;
+    margin-bottom: 50px !important;
+    border: 1px solid #ececec;
+    background-color: #ffffff !important;
+}
+.caption{
+    width: 1400px !important;
+    border-bottom: 1px solid #ececec;
+}
+.goodsImg{
+    display: inline-block;
+    margin: 10px;
+}
+.goodsImg img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.info{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 10px 10px 0;
+    width: 1060px;
+}
+.name{
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    color: #333333;
+}
+.seller{
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    color: #666666;
+    font-size: 16px;
+}
+.mark{
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    color: #999999;
+    font-size: 14px;
+}
+.goodsPic{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+.picTitle{
+    margin-bottom: 10px;
+    color: #333333;
+    font-size: 18px;
+}
+.goodsPic img{
+    width: 1380px;
+}
+.operate{
+    width: 1380px;
+    padding: 15px 10px;
+    border-top: 1px solid #ececec;
+}
+.pass{
+    margin-right: 20px;
+    width: 90px;
+    height: 35px;
+    border: none;
+    text-align:center;
+    color: #ffffff;
+    background-color: #ff9a3b;
+    font-size: 14px;
+    cursor: pointer;
+}
+.refuse{
+    width: 90px;
+    height: 35px;
+    border: none;
+    text-align:center;
+    color: #ffffff;
+    background-color: #cccccc;
+    font-size: 14px;
+    cursor: pointer;
+}
+.pass:hover{
+    background-color: #fd891d;
+}
+.refuse:hover{
+    background-color: #bbbbbb;
+}
+
+
+.pass_pop,.refuse_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 50px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.star{
+    color: #ff0000;
+}
+.txt{
+    float: right;
+    vertical-align: top;
+    padding: 5px;
+    width: 295px;
+    resize: none;
+    height: 60px;
+    border: 1px solid #ececec;
+    overflow-x: hidden;
+}

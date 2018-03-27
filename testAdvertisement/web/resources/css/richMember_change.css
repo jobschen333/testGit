@@ -1,0 +1,116 @@
+.addInfo{
+    margin-top: 10px;
+    padding: 20px 10px;
+    width: 1200px;
+    background-color: #ffffff;
+}
+.role{
+    margin-bottom: 10px;
+}
+.name{
+    display: inline-block;
+    width: 95px;
+    font-size: 16px;
+    color: #333333;
+}
+.star{
+    color: #ff0000;
+}
+.nameInput{
+    padding-left: 5px;
+    width: 250px;
+    height: 35px;
+    border: 1px solid #ececec;
+    color: #999999;
+    font-size: 14px;
+}
+.nameSelect{
+    padding-left: 5px;
+    width: 270px;
+    height: 35px;
+    border: 1px solid #ececec;
+    color: #999999;
+    font-size: 14px;
+}
+.roleInfo{
+    display: inline-block;
+    vertical-align: top;
+    width: 1080px;
+    border-top: 1px solid #ececec;
+    border-left: 1px solid #ececec;
+    border-right: 1px solid #ececec;
+    border-radius: 5px;
+}
+.infoTitle{
+    padding-left: 10px;
+    width: 1070px;
+    height: 45px;
+    line-height: 45px;
+    color: #666666;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    border-bottom: 1px solid #ececec;
+    cursor: pointer;
+}
+.infoTitle:hover{
+    background-color: #e4f4fc;
+}
+.info_up,.info_down{
+    float: right;
+    margin:19px 10px 19px 0;
+}
+.info_up{
+    display: none;
+}
+.infoTwo{
+    display: none;
+    width: 1060px;
+    font-size: 14px;
+    color: #666666;
+}
+.infoTwo li{
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #ececec;
+}
+.infoTwo li:last-child{
+    border: none;
+}
+.details{
+    margin-right: 15px;
+    font-size: 14px;
+}
+.operate{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.back{
+    display: inline-block;
+    margin-right: 20px;
+    width: 70px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #cccccc !important;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+    cursor: pointer;
+}
+.back:hover{
+    opacity: 0.8;
+}
+.submit{
+    width: 70px;
+    height: 35px;
+    border: 1px solid #49a2fb;
+    background-color: #49a2fb;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: #2c94fd;
+}

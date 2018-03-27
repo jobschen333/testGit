@@ -1,0 +1,30 @@
+.askInput,.askSelect{
+    width: 130px;
+}
+.startTime,.endTime{
+    width: 150px;
+}
+.time{
+    width: 200px;
+}
+.companyInfo{
+    width: 350px;
+}
+.tableInfo .companyInfo{
+    text-align: left;
+}
+.state{
+    width: 129px;
+}
+.mark{
+    width: 399px;
+}
+.operate{
+    width: 100px;
+}
+.detail{
+    color: #49a2fb;
+}
+.detail:hover{
+    color: #2c94fd;
+}

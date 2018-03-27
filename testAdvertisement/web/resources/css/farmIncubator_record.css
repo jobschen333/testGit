@@ -1,0 +1,71 @@
+.askInput,.askSelect,.startTime,.endTime{
+    width: 140px;
+}
+.askOperate{
+    float: right;
+}
+.grantCancel,.grantAll,.grantConfirm{
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #49a2fb;
+    text-align: center;
+    cursor: pointer;
+}
+.grantCancel:hover,.grantAll:hover,.grantConfirm:hover{
+    background-color: #2c94fd;
+}
+.time{
+    width: 180px;
+}
+.order{
+    width: 230px;
+}
+.tableInfo .order{
+    text-align: left;
+}
+.info{
+    width: 160px;
+}
+.state{
+    width: 102px;
+}
+.mark{
+    width: 230px;
+}
+.check,.choose_two,.controlAll{
+    display: inline-block;
+    width: 66px;
+}
+.controlAll{
+    height: 30px;
+    line-height: 30px;
+}
+
+.grantAll_pop,.cancel_pop,.confirm_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 50px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.txt{
+    float: right;
+    vertical-align: top;
+    padding: 5px;
+    width: 295px;
+    resize: none;
+    height: 60px;
+    border: 1px solid #ececec;
+    overflow-x: hidden;
+}
+

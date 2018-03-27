@@ -1,0 +1,135 @@
+.askInput,.askSelect{
+    width: 130px;
+}
+.time{
+    width: 120px;
+}
+.pic{
+    width: 51px;
+}
+.pic img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.name{
+    width: 197px;
+}
+.price{
+    width: 78px;
+}
+.stock{
+    width: 103px;
+}
+.tableInfo .stock{
+    text-align: left;
+}
+.state{
+    width: 57px;
+}
+.seller{
+    width: 123px;
+}
+.operate{
+    width: 409px;
+}
+.choose{
+    display: inline-block;
+    margin-right: 3px;
+    width: 70px;
+}
+.import{
+    margin-right: 3px;
+    width: 70px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #49a2fb;
+}
+.file{
+    position: absolute;
+    top:0;
+    left:0;
+    margin-right: 3px;
+    width: 70px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    opacity: 0;
+}
+.stop{
+    margin-right: 3px;
+    width: 40px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #ff0000;
+}
+.start{
+    margin-right: 3px;
+    width: 40px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #00CC00;
+}
+.delete{
+    margin-right: 3px;
+    width: 40px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #49a2fb;
+}
+.change{
+    margin-right: 3px;
+    width: 80px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #49a2fb;
+}
+.addStock,.minusStock{
+    margin-right: 3px;
+    width: 65px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #49a2fb;
+}
+.stop:hover,.start:hover{
+    opacity: 0.8;
+}
+.delete:hover,.change:hover,.addStock:hover,.minusStock:hover,.import:hover{
+    color: #2c94fd;
+}
+
+.delete_pop,.change_pop,.addStock_pop,.minusStock_pop,.stop_pop,.start_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 70px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.star{
+    color: #ff0000;
+}
+.entry{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 280px;
+    height: 35px;
+}

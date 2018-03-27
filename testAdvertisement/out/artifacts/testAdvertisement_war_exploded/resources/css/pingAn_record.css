@@ -1,0 +1,18 @@
+.askInput,.startTime,.endTime{
+    width: 180px;
+}
+.time{
+    width: 160px;
+}
+.number{
+    width: 250px;
+}
+.name{
+    width: 250px;
+}
+.money{
+    width: 170px;
+}
+.mark{
+    width: 345px;
+}

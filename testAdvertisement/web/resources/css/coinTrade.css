@@ -1,0 +1,27 @@
+.askInput,.askSelect,.startTime,.endTime{
+    width: 200px;
+}
+.time{
+    width: 130px;
+ }
+.type{
+    width: 120px;
+}
+.account{
+    width: 140px;
+}
+.number{
+    width: 240px;
+}
+.name{
+    width: 100px;
+}
+.info{
+    width: 62px;
+}
+.state{
+    width: 62px;
+}
+.mark{
+    width: 134px;
+}

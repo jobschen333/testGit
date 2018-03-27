@@ -1,0 +1,13 @@
+.askInput,.askSelect{
+    width: 100px;
+}
+.time,.account,.money,.ip{
+    width: 170px;
+}
+.type{
+    width: 80px;
+}
+.mark{
+    width: 218px;
+    word-break: break-all;
+}

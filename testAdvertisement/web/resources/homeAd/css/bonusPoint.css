@@ -1,0 +1,59 @@
+.askInput{
+    width: 90px;
+}
+.askOperate{
+    float: right;
+}
+.update,.temporary{
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #49a2fb;
+    text-align: center;
+    cursor: pointer;
+}
+.settle{
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #49a2fb;
+    text-align: center;
+    cursor: pointer;
+}
+.update:hover,.temporary:hover,.settle:hover{
+    background-color: #2c94fd;
+}
+.account,.point{
+    width: 234px;
+}
+
+.update_pop,.temporary_pop,.settle_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.star{
+    color: #ff0000;
+}
+.entry{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 220px;
+    height: 35px;
+}

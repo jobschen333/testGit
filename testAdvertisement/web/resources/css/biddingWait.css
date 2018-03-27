@@ -1,0 +1,181 @@
+.data{
+    margin: 10px 10px 10px 0;
+    width: 110px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #ff9a3b;
+    cursor: pointer;
+}
+.dataChange{
+    margin: 10px 10px 10px 0;
+    width: 135px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #ff9a3b;
+    cursor: pointer;
+}
+.newBidding{
+    margin: 10px 10px 10px 0;
+    display: inline-block;
+    width: 110px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #49a2fb;
+    cursor: pointer;
+}
+.addBidding{
+    margin: 10px 10px 10px 0;
+    width: 135px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #49a2fb;
+    cursor: pointer;
+}
+.delete{
+    margin: 10px 10px 10px 0;
+    width: 50px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #333333;
+    cursor: pointer;
+}
+.data:hover,.dataChange:hover{
+    background-color: #fd891d;
+}
+.newBidding:hover,.addBidding:hover{
+    background-color: #2c94fd;
+}
+.delete:hover{
+    background-color: #000000;
+}
+.biddingArea{
+    width: 1220px;
+    background-color: #ffffff;
+}
+.area{
+    display: inline-block;
+    padding: 10px 10px 0 10px;
+    width: 1200px;
+    min-height: 30px;
+    border-bottom: 2px solid #ececec;
+}
+.areaInfo{
+    float: left;
+    margin-right: 5px;
+    padding: 0 10px 5px 10px;
+    font-size: 16px;
+    color: #333333;
+    cursor: pointer;
+}
+.areaInfo:hover{
+    color: #ff9a3b;
+    border-bottom: 2px solid #ff9a3b;
+}
+.chooseState{
+    color: #ff9a3b;
+    border-bottom: 2px solid #ff9a3b;
+}
+.askArea{
+    margin-top: 0 !important;
+}
+.askSelect,.askInput{
+    width: 130px;
+}
+.table{
+    margin: 0 10px 0 10px !important;
+    width: 1200px !important;
+}
+.pic{
+    width: 70px;
+}
+.pic img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.time{
+    width: 160px;
+}
+.name{
+    width: 220px;
+}
+.amount{
+    width: 120px;
+}
+.price{
+    width: 140px;
+}
+.bidding{
+    width: 139px;
+}
+.tableInfo .amount,.tableInfo .price,.tableInfo .bidding{
+    text-align: left;
+}
+.operate{
+    width: 46px;
+}
+.change{
+    width: 40px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 12px;
+    color: #49a2fb;
+}
+.change:hover{
+    color: #2c94fd;
+}
+.check,.choose_two,.controlAll{
+    display: inline-block;
+    width: 53px;
+}
+.controlAll{
+    height: 30px;
+    line-height: 30px;
+}
+
+.change_pop,.delete_pop,.addBidding_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 70px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.star{
+    color: #ff0000;
+}
+.entry{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 280px;
+    height: 35px;
+}
+.popSelected{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 285px;
+    height: 35px;
+}

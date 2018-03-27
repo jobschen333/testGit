@@ -1,0 +1,467 @@
+html{
+    width:100%;
+    height:100%;
+}
+body{
+    width: 100%;
+    margin:0 auto;
+    align-content: center;
+    font-family: "Microsoft Yahei";
+    background-color: #f5f5f5;
+    height:100%;
+}
+*{
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+}
+a:active,a:visited,a:hover,a:link {
+    border: none;
+    outline:none;
+}
+img{
+    border:none;
+    outline:none;
+}
+ul li{
+    list-style: none;
+}
+.content{
+    clear:both;
+    position: relative;
+    width: 1400px;
+    margin:0 auto;
+    font-family: "Microsoft YaHei";
+}
+input,select,textarea{
+    outline: none;
+    font-family: "Microsoft YaHei";
+}
+input:-webkit-autofill{
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+}
+
+
+
+/*------header------*/
+#header{
+    width: 100%;
+    min-width: 1400px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #ffffff;
+}
+.header{
+    width: 1400px;
+    margin:0 auto;
+}
+.h_title{
+    float: left;
+    height: 60px;
+    line-height: 60px;
+}
+.logo{
+    float: left;
+    margin:10px 5px 10px 0;
+    width: 40px;
+    height: 40px;
+}
+.sljz{
+    display: inline-block;
+    margin:15px 0 15px 5px;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-left:1px solid #ececec;
+    font-size: 18px;
+    color: #333333;
+}
+.h_side{
+    float: right;
+}
+.user{
+    margin-right: 25px;
+    font-size: 14px;
+}
+.out{
+    font-size: 14px;
+    color: #666666;
+}
+.out img {
+    margin-right: 3px;
+}
+.out:hover{
+    opacity: 0.8;
+}
+
+
+/*-----menu-----*/
+#menu{
+    float: left;
+    width: 170px;
+    height:100%;
+    background-color: #2a3945;
+}
+.levelOne{
+    border-bottom: 1px solid #394957;
+}
+.menuTitle{
+    padding-left: 30px;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    color: #ffffff;
+    font-size: 15px;
+    border-bottom: 1px solid #394957;
+    cursor: pointer;
+}
+.menuTitle img{
+    float: right;
+    margin:19px 10px 19px 0;
+}
+.menu_up{
+    display: none;
+}
+.menuInfo{
+    width: 170px;
+    height: 35px;
+    line-height: 35px;
+}
+.menuInfo a{
+    display: inline-block;
+    padding-left: 30px;
+    width: 140px;
+    color: #bbbbbb;
+    font-size: 13px;
+}
+.menuInfo a:hover{
+   color: #49a2fb;
+}
+.levelTwo{
+    display: none;
+    background-color: #1c2c36;
+}
+.personal_pitch{
+    background-image: url("../images/circle.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 12px 14px;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    color: #49a2fb !important;
+}
+.titleChoose
+{
+    background-color: #49a2fb !important;
+}
+
+/*-----contentRight-----*/
+.contentRight{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 1220px;
+}
+.caption{
+    width: 1220px;
+    height: 45px;
+    background-color: #ffffff;
+}
+.title{
+    display: inline-block;
+    margin: 12px 10px;
+    padding-left: 10px;
+    height: 20px;
+    line-height: 20px;
+    border-left: 2px solid #49a2fb;
+    color: #49a2fb;
+    font-size: 16px;
+}
+.add{
+    float: right;
+    margin:5px 10px;
+    padding: 10px;
+    height: 15px;
+    line-height: 15px;
+    background-color: #49a2fb;
+    border: none;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+.add:hover{
+    background-color: #2c94fd;
+}
+.askArea{
+    margin-top: 10px;
+    padding: 0 10px 10px 0;
+    background-color: #ffffff;
+}
+.condition{
+    display: inline-block;
+    margin:10px 0 0 10px;
+    font-size: 14px;
+    color: #333333;
+    text-align: left;
+}
+.askInput,.askSelect,.startTime,.endTime{
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    height:30px;
+}
+.ask{
+    margin-left: 10px;
+    width: 50px;
+    height:30px;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #ff9a3b;
+    text-align: center;
+    cursor: pointer;
+}
+.ask:hover{
+    background-color: #fd891d;
+}
+.educe{
+    margin-left: 10px;
+    width: 50px;
+    height:30px;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #49a2fb;
+    text-align: center;
+    cursor: pointer;
+}
+.educe:hover{
+    background-color: #2c94fd;
+}
+.table{
+    width: 1220px;
+    margin-top: 10px;
+    border: 1px solid #cccccc;
+}
+.tableTitle{
+    padding: 0 10px;
+    background-color: #dee3e5;
+    color: #333333;
+    font-size: 14px;
+    font-family: "Microsoft Yahei";
+    height: 40px;
+    text-align: center;
+}
+.tableInfo{
+    padding: 0 10px;
+    height: 40px;
+    font-family: "Microsoft Yahei";
+    font-size: 12px;
+    color: #333333;
+    cursor: default;
+}
+.tableInfo:nth-child(even){
+    background-color: #ffffff;
+}
+.tableInfo:nth-child(odd){
+    background-color: #f5f5f5;
+}
+.tableInfo:hover{
+    background-color: #e4f4fc !important;
+}
+.tableInfo td,.tableTitle td
+{
+    text-align: center;
+    padding: 5px ;
+    display: table-cell;
+    vertical-align: middle
+}
+td p{
+    word-break: break-all;
+}
+
+/*-----footer-----*/
+#footer{
+    display: inline-block;
+    width: 100%;
+    min-width: 1400px;
+    height: 40px;
+    background-color: #ffffff;
+}
+.footer {
+    margin:0 auto;
+    width: 1400px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+}
+.footer a{
+    color: #666666;
+}
+.footer a:hover{
+    color: #49a2fb;
+}
+
+/*-----mask-----*/
+.mask{
+    display: none;
+    position:fixed;
+    width: 100%;
+    min-width: 1400px;
+    height:100%;
+    background-color:rgba(0,0,0,0.6);
+    z-index:10;
+    top:0;
+}
+.mask_content{
+    width:400px;
+    margin:100px  auto;
+    background-color:#ffffff;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.popTitle{
+    position: relative;
+    padding-left: 20px;
+    width: 380px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    border-radius: 10px 10px 0 0;
+    font-size: 16px;
+    color: #333333;
+    border-bottom: 1px solid #ececec;
+}
+.popInput{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 0 20px;
+    width: 360px;
+    text-align: left;
+}
+.popTips{
+    margin-top: 15px;
+    padding: 0 20px;
+    width: 360px;
+    font-size: 15px;
+    color: #666666;
+}
+.tipsImg{
+    margin-right: 15px;
+    vertical-align: middle;
+}
+.buttons{
+    padding: 20px 20px 20px 0;
+    width: 380px;
+    text-align: right;
+}
+.yes{
+    width: 65px;
+    height: 30px;
+    border: 1px solid #49a2fb;
+    background-color: #49a2fb;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.yes:hover{
+    background-color: #2c94fd;
+}
+.cancel{
+    margin-right: 20px;
+    width: 65px;
+    height: 30px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+    cursor: pointer;
+}
+.cancel:hover{
+    opacity: 0.8;
+}
+
+/*-----changePage-----*/
+.changePage{
+    width: 1220px;
+    height: 35px;
+    line-height: 35px;
+    margin: 10px  auto 15px auto;
+    font-size: 14px;
+    font-family: "Microsoft Yahei";
+    color: #666666;
+}
+.total{
+    width: 300px;
+    display: inline-block;
+}
+.page{
+    margin-right: 15px;
+    text-align: right;
+    float: right;
+    color: #666666;
+}
+.first,.end{
+    width: 30px;
+    font-size: 14px;
+    text-align: right;
+    border: none;
+    cursor: pointer;
+    font-family: "Microsoft Yahei";
+    color: #666666;
+    background-color: transparent;
+}
+.upPage,.downPage{
+    width: 55px;
+    font-size: 14px;
+    text-align: right;
+    border: none;
+    cursor: pointer;
+    font-family: "Microsoft Yahei";
+    color: #666666;
+    background-color: transparent;
+}
+.upPage,.first{
+    margin-right: 5px;
+}
+.downPage,.end{
+    margin-left: 5px;
+}
+.first:hover,.end:hover,.upPage:hover,.downPage:hover{
+    opacity: 0.8;
+}
+.pageNumber{
+    margin: 0 5px;
+}
+.jump{
+    float: right;
+}
+.jump input{
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    border-radius: 0;
+}
+.jumpButton{
+    width: 55px;
+    text-align: center;
+    margin-left: 15px;
+    background-color: #49a2fb;
+    border: none;
+    height: 34px !important;
+    color: #ffffff;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    cursor: pointer;
+}
+.jumpButton:hover{
+    background-color: #2c94fd;
+}

@@ -1,0 +1,59 @@
+.laydate_body .laydate_bottom #laydate_hms{
+    display: none !important;
+}
+.askSelect,.askInput{
+    width: 180px;
+}
+.startTime,.endTime{
+    width: 200px;
+}
+.time{
+    width: 170px;
+}
+.name{
+    width: 208px;
+}
+.number{
+    width: 260px;
+}
+.state{
+    width: 65px;
+}
+.operate{
+    width: 105px;
+}
+.delete,.change{
+    margin-right: 3px;
+    width: 40px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #49a2fb;
+}
+.delete:hover,.change:hover{
+    color: #2c94fd;
+}
+
+.delete_pop,.change_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 70px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.star{
+    color: #ff0000;
+}
+.entry{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 280px;
+    height: 35px;
+}

@@ -1,0 +1,84 @@
+.askSelect,.askInput{
+    width: 150px;
+}
+.time{
+    width: 125px;
+}
+.account{
+    width: 125px;
+}
+.source{
+    width: 160px;
+    word-break: break-all;
+}
+.money{
+    width: 120px;
+}
+.lockTime{
+    width: 160px;
+}
+.tableInfo .lockTime{
+    text-align: left;
+}
+.type{
+    width: 70px;
+}
+.mark{
+    width: 178px;
+    word-break: break-all;
+}
+.operation{
+    width: 70px;
+}
+.change{
+    width: 34px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #49a2fb;
+    font-size: 12px;
+}
+.change:hover{
+    color: #2c94fd;
+}
+.change_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 95px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.star{
+    color: #ff0000;
+}
+.entry{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 250px;
+    height: 35px;
+}
+.popAccount{
+    float: right;
+    text-align: left;
+    width: 257px;
+    height: 35px;
+    line-height: 35px;
+    color: #999999;
+}
+.txt{
+    float: right;
+    vertical-align: top;
+    padding: 5px;
+    width: 245px;
+    resize: none;
+    height: 60px;
+    border: 1px solid #ececec;
+    overflow-x: hidden;
+}

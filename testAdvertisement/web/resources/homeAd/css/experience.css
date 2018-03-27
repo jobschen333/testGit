@@ -1,0 +1,63 @@
+.askSelect,.askInput{
+    width: 130px;
+}
+.time{
+    width: 172px;
+}
+.pic{
+    width: 80px;
+}
+.pic img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+.name{
+    width: 300px;
+}
+.price{
+    width: 145px;
+}
+.tableInfo .price{
+    text-align: left;
+}
+.operate{
+    width: 134px;
+}
+.change,.delete{
+    margin-right: 5px;
+    width: 40px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 12px;
+    color: #49a2fb;
+}
+.change:hover,.delete:hover{
+    color: #2c94fd;
+}
+
+.delete_pop,.change_pop
+{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 70px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.star{
+    color: #ff0000;
+}
+.entry{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 280px;
+    height: 35px;
+}

@@ -1,0 +1,104 @@
+.askInput{
+    width: 123px;
+}
+.askSelect{
+    width: 96px;
+ }
+.startTime,.endTime{
+    width: 147px;
+}
+.askArea{
+    overflow: hidden;
+}
+.askOperate{
+    float: right;
+}
+input.ask{
+    margin-left:16px;
+}
+.grantCancel,.grantAll,.grantConfirm{
+    margin-left: 8px;
+    margin-top: 10px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #49a2fb;
+    text-align: center;
+    cursor: pointer;
+}
+.grantCancel:hover,.grantAll:hover,.grantConfirm:hover{
+    background-color: #2c94fd;
+}
+
+tr.tableInfo td, tr.tableTitle td{
+    padding:5px 10px;
+}
+.time{
+    width: 208px;
+}
+.account{
+    width: 200px;
+}
+.identity{
+    width: 100px;
+}
+.unlock{
+    width: 180px;
+}
+.unlockTime{
+    width: 180px;
+}
+.state{
+    width: 100px;
+}
+.check{
+    width: 110px;
+}
+.grantAll_pop,.confirm_pop,.cancel_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+input.entry{
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 252px;
+    height: 35px;
+    margin-right:5px;
+}
+.popCompany{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+.info{
+    float: left;
+    margin:0 20px;
+    padding: 10px 0;
+    width: 360px;
+    font-size: 14px;
+    color: #666666;
+    border-bottom: 1px solid #ececec;
+    cursor: pointer;
+}
+.info:last-child{
+    border: none;
+}
+.info:hover{
+    color: #999999;
+}
+p.popInput{
+    color: #666666;
+    font-size: 13px;
+}

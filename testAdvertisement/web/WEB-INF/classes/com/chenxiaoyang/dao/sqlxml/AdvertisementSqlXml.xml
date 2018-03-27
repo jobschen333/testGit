@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC 
+        "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.chenxiaoyang.dao.IAdvertisementDao">
+
+    <select id="queryAdvertisementList" resultType="Advertisement">
+       SELECT id,title,surfacePlotAdress,webUrl,wapUrl,createTime,surfacePlotName
+       FROM advertisement_table
+       ORDER BY id DESC
+    </select>
+
+    <delete id="deleteAdvertisementById" parameterType="int">
+        DELETE FROM advertisement_table
+        WHERE Id = #{id}
+    </delete>
+
+    <insert id="insertAdvertisement" parameterType="Advertisement">
+        INSERT INTO advertisement_table(
+        surfacePlotAdress,
+        <if test="webUrl != null">
+            webUrl,
+        </if>
+        <if test="wapUrl != null">
+            wapUrl,
+        </if>
+        <if test="surfacePlotName != null">
+            surfacePlotName,
+        </if>
+        title
+        )VALUES(
+        #{surfacePlotAdress},
+        <if test="webUrl != null">
+            #{webUrl},
+        </if>
+        <if test="wapUrl != null">
+            #{wapUrl},
+        </if>
+        <if test="surfacePlotName != null">
+            #{surfacePlotName},
+        </if>
+        #{title}
+        )
+    </insert>
+
+    <update id="updateAdvertisement" parameterType="Advertisement">
+        UPDATE advertisement_table SET
+        <if test="wapUrl != null and wapUrl!=''">
+           wapUrl = #{wapUrl},
+        </if>
+        <if test="webUrl != null and webUrl!=''">
+            webUrl = #{webUrl},
+        </if>
+        <if test="surfacePlotName != null">
+            surfacePlotName = #{surfacePlotName},
+        </if>
+        <if test="surfacePlotAdress != null and surfacePlotAdress != ''">
+            surfacePlotAdress = #{surfacePlotAdress},
+        </if>
+        title = #{title}
+        where id = #{id}
+    </update>
+</mapper>

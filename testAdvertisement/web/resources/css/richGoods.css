@@ -1,0 +1,113 @@
+.askInput,.askSelect{
+    width: 125px;
+}
+.time{
+    width: 75px;
+}
+.goods{
+    width: 150px;
+}
+.pic{
+    width: 51px;
+}
+.pic img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.price{
+    width: 135px;
+}
+.stock{
+    width: 131px;
+}
+.business{
+    width: 99px;
+}
+.rebate{
+    width: 115px;
+}
+.repeat{
+    width: 122px;
+}
+.state{
+    width: 91px;
+}
+.tableInfo .goods,.tableInfo .price,.tableInfo .stock,.tableInfo .rebate,.tableInfo .repeat,.tableInfo .state{
+    text-align: left;
+}
+.operate{
+    width: 149px;
+}
+.stop{
+    margin-right: 3px;
+    width: 40px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #ff0000;
+}
+.start{
+    margin-right: 3px;
+    width: 40px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #00CC00;
+}
+.delete,.change{
+    margin-right: 3px;
+    width: 40px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #49a2fb;
+}
+.addStock,.minusStock{
+    margin-right: 3px;
+    width: 65px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #49a2fb;
+}
+.stop:hover,.start:hover{
+    opacity: 0.8;
+}
+.delete:hover,.change:hover,.addStock:hover,.minusStock:hover,.import:hover{
+    color: #2c94fd;
+}
+
+.delete_pop,.change_pop,.addStock_pop,.minusStock_pop,.stop_pop,.start_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 70px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.star{
+    color: #ff0000;
+}
+.entry{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 280px;
+    height: 35px;
+}
+.popSelected{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 285px;
+    height: 35px;
+}

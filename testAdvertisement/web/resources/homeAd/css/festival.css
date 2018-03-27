@@ -1,0 +1,88 @@
+.askSelect,.askInput{
+    width: 150px;
+}
+.time{
+    width: 119px;
+}
+.aCaption{
+    width: 120px;
+}
+.activity{
+    width: 144px;
+}
+.default{
+    width: 120px;
+}
+.tableInfo .activity,.tableInfo .default{
+    text-align: left;
+}
+.word{
+    width: 95px;
+}
+.state{
+    width: 66px;
+}
+.operate{
+    width: 150px;
+}
+.change,.hide,.delete,.show{
+    color: #49a2fb;
+    font-size: 12px;
+    border: none;
+    text-align: center;
+}
+.change,.delete{
+    width: 40px;
+    background-color: transparent;
+}
+.show,.hide{
+    width: 55px;
+    background-color: transparent;
+}
+.change:hover,.show:hover,.delete:hover,.hide:hover{
+    color: #2c94fd;
+    cursor: pointer;
+}
+
+.add_pop,.change_pop,.show_pop,.hide_pop,.delete_pop{
+    display: none;
+}
+.popInfo{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ececec;
+}
+.popInfo:last-of-type{
+    border: none;
+}
+.popSecond{
+    padding:10px 20px 0 20px;
+    font-size: 15px;
+    color: #333333;
+}
+
+.popName{
+    display: inline-block;
+    width: 75px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.star{
+    color: #ff0000;
+}
+.entry{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 275px;
+    height: 35px;
+}
+.popSelected{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 280px;
+    height: 35px;
+}

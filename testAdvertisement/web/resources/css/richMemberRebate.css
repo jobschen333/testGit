@@ -1,0 +1,23 @@
+.number,.name,.operate{
+    width: 397px;
+}
+.change,.delete{
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #49a2fb;
+}
+.change{
+    margin-right: 5px;
+}
+.delete{
+    width: 40px;
+}
+.change:hover,.delete:hover{
+    color: #2c94fd;
+}
+
+.delete_pop{
+    display: none;
+}

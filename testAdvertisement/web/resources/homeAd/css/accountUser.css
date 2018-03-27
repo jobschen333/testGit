@@ -1,0 +1,162 @@
+.tableInfo td, .tableTitle td{
+    padding:5px 20px !important;
+}
+.askInput,.askSelect{
+    width: 130px;
+}
+.startTime,.endTime{
+    width: 150px;
+}
+.number{
+    width: 274px;
+}
+.tableInfo .number{
+    text-align: left;
+}
+.account{
+    width: 200px;
+}
+.tableInfo .account{
+    text-align: left;
+}
+.state{
+    width: 130px;
+}
+.operate{
+    width: 170px;
+}
+.stop{
+    margin-bottom: 2px;
+    width: 55px;
+    text-align: center;
+    border: none;
+    color: #ff0000;
+    background-color: transparent;
+    cursor: pointer;
+}
+.start{
+    margin-bottom: 2px;
+    width: 55px;
+    text-align: center;
+    border: none;
+    color: #00CC00;
+    background-color: transparent;
+    cursor: pointer;
+}
+.addVoucher,.addChain,.changeIdentity{
+    margin-bottom: 2px;
+    float: left;
+    width: 70px;
+    text-align: left;
+    border: none;
+    color: #49a2fb;
+    background-color: transparent;
+    cursor: pointer;
+}
+.minusVoucher,.minusChain{
+    margin-bottom: 2px;
+    float: right;
+    width: 70px;
+    text-align: right;
+    border: none;
+    color: #49a2fb;
+    background-color: transparent;
+    cursor: pointer;
+}
+.addScore{
+    margin-bottom: 2px;
+    float: left;
+    width: 80px;
+    text-align: left;
+    border: none;
+    color: #49a2fb;
+    background-color: transparent;
+    cursor: pointer;
+}
+.minusScore{
+    margin-bottom: 2px;
+    float: right;
+    width: 80px;
+    text-align: right;
+    border: none;
+    color: #49a2fb;
+    background-color: transparent;
+    cursor: pointer;
+}
+.changeBuy{
+    float: right;
+    width: 80px;
+    text-align: right;
+    border: none;
+    color: #49a2fb;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.stop_pop,.start_pop,.addVoucher_pop,.minusVoucher_pop,.changeIdentity_pop,.addChain_pop,.minusChain_pop,.changeBuy_pop,.addScore_pop,.minusScore_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.star{
+    color: #ff0000;
+}
+.entry{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 245px;
+    height: 35px;
+}
+.popSelected{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 255px;
+    height: 35px;
+}
+.popAccount{
+    float: right;
+    text-align: left;
+    width: 252px;
+    height: 35px;
+    line-height: 35px;
+    color: #999999;
+}
+.txt{
+    float: right;
+    vertical-align: top;
+    padding: 5px;
+    width: 240px;
+    resize: none;
+    height: 60px;
+    border: 1px solid #ececec;
+    overflow-x: hidden;
+}
+.popRadio{
+    float: right;
+    width: 255px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+}
+.right{
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 15px;
+    width: 35px;
+}
+.radio{
+    margin-top: -3px;
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}

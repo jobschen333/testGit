@@ -1,0 +1,51 @@
+.location{
+    width: 129px;
+}
+.time{
+    width: 400px;
+}
+.name{
+    width: 454px;
+}
+.operate{
+    width: 195px;
+}
+.tableInfo .operate{
+    text-align: right;
+}
+.adUp,.adDown,.change,.delete{
+    margin-right: 5px;
+    width: 40px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 12px;
+    color: #49a2fb;
+}
+.adUp:hover,.adDown:hover,.change:hover,.delete:hover{
+    color: #2c94fd;
+}
+
+.delete_pop,.change_pop,.add_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 70px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.star{
+    color: #ff0000;
+}
+.entry{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 280px;
+    height: 35px;
+}

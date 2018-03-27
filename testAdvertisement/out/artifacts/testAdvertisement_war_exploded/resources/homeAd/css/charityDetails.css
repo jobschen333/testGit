@@ -1,0 +1,110 @@
+.caption{
+    margin-top: 10px;
+    width: 100% !important;
+}
+.main{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 1400px;
+}
+.top{
+    display: inline-block;
+    padding: 20px;
+    width: 1360px;
+    background-color: #ffffff;
+}
+.goodsImg{
+    float: left;
+    width: 220px;
+    height: 220px;
+    border-radius: 5px;
+}
+.goodsInfo{
+    float: left;
+    margin-left: 20px;
+    width: 1120px;
+}
+.infoTop{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ececec;
+}
+.name{
+    color: #333333;
+    font-size: 16px;
+}
+.state{
+    display: inline-block;
+    margin-left: 10px;
+    padding: 2px 5px;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #ff9a3b;
+}
+.time{
+    margin-top: 5px;
+    color: #666666;
+    font-size: 14px;
+}
+.info{
+    float: left;
+    margin:20px 20px 20px 0;
+    width: 535px;
+    border-right: 1px solid #ececec;
+}
+.info:last-of-type{
+    border: none;
+}
+.money,.moneyInfo{
+    display: inline-block;
+}
+.money{
+    margin-right: 15px;
+    font-size: 14px;
+    color: #666666;
+}
+.money span{
+    margin-right: 3px;
+    color: #ff9a3b;
+    font-size: 20px;
+}
+.details{
+    color: #49a2fb;
+    font-size: 14px;
+}
+.details:hover{
+    color: #2c94fd;
+}
+.moneyInfo{
+    margin-top: 5px;
+    margin-right: 10px;
+    font-size: 13px;
+    color: #666666;
+}
+.charityInfo{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 15px;
+    width: 1370px;
+    background-color: #ffffff;
+}
+.infoTitle{
+    text-align: center;
+    font-size: 16px;
+    color: #333333;
+}
+.line{
+    vertical-align: middle;
+}
+.infoTitle span{
+    margin: 0 10px;
+}
+.editor{
+    margin-top: 10px;
+}
+.editor img{
+    margin-bottom: 5px;
+    max-width: 100%;
+}
+.editor span ,.editor p{
+    margin-bottom: 5px;
+}

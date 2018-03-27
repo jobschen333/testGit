@@ -1,0 +1,215 @@
+.askSelect,.askInput{
+    width: 160px;
+}
+.time{
+    width: 120px;
+}
+.pic{
+    width: 60px;
+}
+.pic img{
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
+}
+.name{
+    width: 160px;
+}
+.store{
+    width: 182px;
+}
+.price{
+    width: 70px;
+}
+.stock{
+    width: 63px;
+}
+.state{
+    width: 76px;
+}
+.operate{
+    width: 168px;
+}
+.stop{
+    margin-right: 3px;
+    width: 40px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #ff0000;
+}
+.start{
+    margin-right: 3px;
+    width: 40px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #00CC00;
+}
+.details{
+    margin-left: 2px;
+    color: #49a2fb;
+    font-size: 14px;
+}
+.delete,.change{
+    width: 40px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #49a2fb;
+}
+.addStock,.minusStock{
+    width: 65px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #49a2fb;
+}
+.delete:hover,.change:hover,.addStock:hover,.minusStock:hover,.details:hover{
+    color: #2c94fd;
+}
+.start:hover,.stop:hover{
+    opacity: 0.8;
+}
+
+.delete_pop,.change_pop,.addStock_pop,.minusStock_pop,.start_pop,.stop_pop{
+    display: none;
+}
+.popName{
+    display: inline-block;
+    width: 70px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+.star{
+    color: #ff0000;
+}
+.entry{
+    float: right;
+    padding-left: 5px;
+    border: 1px solid #ececec;
+    width: 280px;
+    height: 35px;
+}
+.popPic{
+    position: relative;
+    float: right;
+    border: 1px solid #ececec;
+    width: 285px;
+    height: 35px;
+    text-align: left;
+}
+.choosePic{
+    float: left;
+    padding-left: 5px;
+    width: 185px;
+    border: none;
+    height: 34px;
+}
+.file{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    width: 70px;
+    height: 35px;
+}
+.choose_button{
+    float: right;
+    width: 85px;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    height: 35px;
+    background-color: #49a2fb;
+    cursor: pointer;
+}
+.choose_button:hover{
+    background-color: #2c94fd;
+}
+.storePic{
+    float: right;
+    width: 287px;
+}
+.img{
+    position: relative;
+    float: left;
+    width: 90px;
+    height: 110px;
+}
+.img img{
+    width: 90px;
+    height: 90px;
+}
+.picMore{
+    float: left;
+    margin-bottom: 2px;
+    margin-right: 10px;
+    width: 90px;
+    height: 110px;
+    position: relative;
+}
+.deletePic{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    border:none;
+    color: #999999;
+    font-size: 14px;
+    cursor: pointer;
+}
+.deletePic:hover{
+    opacity: 0.8;
+}
+.fileMore{
+    position: absolute;
+    opacity: 0;
+    top:0;
+    left: 0;
+    width: 90px;
+    height: 90px;
+}
+.infoImg{
+    position: relative;
+    float: left;
+    margin-right: 5px;
+    margin-bottom:5px;
+    width: 90px;
+    height: 110px;
+    overflow: hidden;
+    border-radius: 5px;
+    text-align: center;
+}
+.file0{
+    width: 86px;
+    height: 86px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    border: 2px solid #cccccc;
+}
+.deleteImg{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 90px;
+    height: 15px;
+    border: none;
+    text-align: center;
+    color: #666666;
+    font-size: 12px;
+    cursor: pointer;
+}
+.deleteImg:hover{
+	color:#999999;
+}
